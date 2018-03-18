@@ -30,17 +30,56 @@ public class PlayerMovement : MonoBehaviour
     float xRotation = 0.0f;
     float yRotation = 0.0f;
 
+    //Shooting
+    float fireRate = 2f;
+    float nextTimeToFire = 0f;
+    public GameObject projectile;
+	//public GameObject IceBall;
+	//public Transform firePosition;
+	//public float timeShoot;
+	//public float timeReset;
+	//public int fireSpeed;
+
+
     void Start()
     {
         rRigidbody = GetComponent<Rigidbody>();
         position = transform.position;
+		timeShoot = timeReset;
     }
 
     void Update()
     {
         Movement();
         HUDCheck();
+        Shoot();
     }
+    void Shoot()
+    {
+        if (Input.GetKey(KeyCode.Mouse0) && Time.time >= nextTimeToFire)
+        {
+            nextTimeToFire = Time.time + 1f / fireRate;
+            Instantiate()
+        }
+    }
+	/*void FixedUpdate()
+	{
+
+		if (Input.GetKeyDown (KeyCode.Mouse0)) {
+
+			GameObject Temporary_Ball_Handler;
+			Temporary_Ball_Handler = Instantiate (IceBall, firePosition.transform.position, firePosition.transform.rotation) as GameObject;
+
+			Rigidbody Temporary_RigidBody;
+			Temporary_RigidBody = Temporary_Ball_Handler.GetComponent<Rigidbody> ();
+
+
+			Temporary_RigidBody.AddForce (transform.forward*fireSpeed);
+	
+			Destroy (Temporary_Ball_Handler, 10.0f);
+		}
+
+	}*/
 
     void Movement()
     {
