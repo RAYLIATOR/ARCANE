@@ -1,0 +1,372 @@
+fileFormatVersion: 2
+guid: 0830f6df877fb0a4ebd4b77cdb43ab07
+timeCreated: 1524132625
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body
+    100002: Bone001
+    100004: Bone002
+    100006: Bone003
+    100008: Bone004
+    100010: Bone005
+    100012: Bone006
+    100014: Bone007
+    100016: Bone008
+    100018: Bone009
+    100020: Bone010
+    100022: Bone011
+    100024: Bone012
+    100026: Bone013
+    100028: Bone014
+    100030: Bone015
+    100032: Bone016
+    100034: Ellipse002
+    100036: Ellipse003
+    100038: Ellipse004
+    100040: Ellipse005
+    100042: Ellipse006
+    100044: Ellipse007
+    100046: Ellipse008
+    100048: Ellipse009
+    100050: Ellipse010
+    100052: Ellipse012
+    100054: Ellipse013
+    100056: Ellipse014
+    100058: Ellipse017
+    100060: Ellipse019
+    100062: Ellipse022
+    100064: Ellipse023
+    100066: Ellipse027
+    100068: Ellipse028
+    100070: Ellipse029
+    100072: Ellipse030
+    100074: Ellipse031
+    100076: Ellipse032
+    100078: Ellipse033
+    100080: Ellipse034
+    100082: Ellipse035
+    100084: Ellipse036
+    100086: Ellipse037
+    100088: Ellipse038
+    100090: Ellipse039
+    100092: Ellipse040
+    100094: IK Chain001
+    100096: IK Chain002
+    100098: IK Chain003
+    100100: IK Chain004
+    100102: IK Chain005
+    100104: IK Chain006
+    100106: Jaw
+    100108: Jaw_Cont
+    100110: Jaw_EndBone
+    100112: L_1f_b1
+    100114: L_1f_b2
+    100116: L_1f_b3
+    100118: L_1f_EndBone
+    100120: L_2f_b1
+    100122: L_2f_b2
+    100124: L_2f_b3
+    100126: L_2f_Endbone
+    100128: L_3f_b1
+    100130: L_3f_b2
+    100132: L_3f_b3
+    100134: L_3f_EndBone
+    100136: L_4f_b1
+    100138: L_4f_b2
+    100140: L_4f_b3
+    100142: L_4f_EndBone
+    100144: L_Arm
+    100146: L_Clavicle
+    100148: L_Clavicle_Cont
+    100150: L_Elbow_Cont
+    100152: L_Elbow_Cont001
+    100154: L_Elbow_Cont002
+    100156: L_Hand
+    100158: L_Thumb_B1
+    100160: L_Thumb_B2
+    100162: L_Thumb_B3
+    100164: L_Thumb_EndBone
+    100166: L_Wrist
+    100168: L_Wrist_Cont
+    100170: L_wrist_endbone
+    100172: L_Wrist_IKChain
+    100174: Master
+    100176: R_1f_b1
+    100178: R_1f_b2
+    100180: R_1f_b3
+    100182: R_1f_Endbone
+    100184: R_2f_b1
+    100186: R_2f_b2
+    100188: R_2f_b3
+    100190: R_2f_EndBone
+    100192: R_3F_b1
+    100194: R_3F_b2
+    100196: R_3F_b3
+    100198: R_3F_EndBone
+    100200: R_4F_b1
+    100202: R_4F_b2
+    100204: R_4F_b3
+    100206: R_4F_Endbone
+    100208: R_Arm
+    100210: R_Clavicle
+    100212: R_Clavicle_Cont
+    100214: R_Elbow_Cont
+    100216: R_Hand
+    100218: R_Thumb_B1
+    100220: R_Thumb_B2
+    100222: R_Thumb_B3
+    100224: R_Thumb_EndBone
+    100226: R_Wrist
+    100228: R_Wrist_Cont
+    100230: R_Wrist_Endbone
+    100232: R_Wrist_IKChain
+    100234: Rectangle001
+    100236: Rectangle002
+    100238: //RootNode
+    100240: Stomach_Cont
+    100242: Stomach_Cont001
+    100244: Stomach_Cont002
+    100246: Stomach_Cont003
+    100248: Stomach_Cont004
+    100250: Stomach_Cont005
+    400000: Body
+    400002: Bone001
+    400004: Bone002
+    400006: Bone003
+    400008: Bone004
+    400010: Bone005
+    400012: Bone006
+    400014: Bone007
+    400016: Bone008
+    400018: Bone009
+    400020: Bone010
+    400022: Bone011
+    400024: Bone012
+    400026: Bone013
+    400028: Bone014
+    400030: Bone015
+    400032: Bone016
+    400034: Ellipse002
+    400036: Ellipse003
+    400038: Ellipse004
+    400040: Ellipse005
+    400042: Ellipse006
+    400044: Ellipse007
+    400046: Ellipse008
+    400048: Ellipse009
+    400050: Ellipse010
+    400052: Ellipse012
+    400054: Ellipse013
+    400056: Ellipse014
+    400058: Ellipse017
+    400060: Ellipse019
+    400062: Ellipse022
+    400064: Ellipse023
+    400066: Ellipse027
+    400068: Ellipse028
+    400070: Ellipse029
+    400072: Ellipse030
+    400074: Ellipse031
+    400076: Ellipse032
+    400078: Ellipse033
+    400080: Ellipse034
+    400082: Ellipse035
+    400084: Ellipse036
+    400086: Ellipse037
+    400088: Ellipse038
+    400090: Ellipse039
+    400092: Ellipse040
+    400094: IK Chain001
+    400096: IK Chain002
+    400098: IK Chain003
+    400100: IK Chain004
+    400102: IK Chain005
+    400104: IK Chain006
+    400106: Jaw
+    400108: Jaw_Cont
+    400110: Jaw_EndBone
+    400112: L_1f_b1
+    400114: L_1f_b2
+    400116: L_1f_b3
+    400118: L_1f_EndBone
+    400120: L_2f_b1
+    400122: L_2f_b2
+    400124: L_2f_b3
+    400126: L_2f_Endbone
+    400128: L_3f_b1
+    400130: L_3f_b2
+    400132: L_3f_b3
+    400134: L_3f_EndBone
+    400136: L_4f_b1
+    400138: L_4f_b2
+    400140: L_4f_b3
+    400142: L_4f_EndBone
+    400144: L_Arm
+    400146: L_Clavicle
+    400148: L_Clavicle_Cont
+    400150: L_Elbow_Cont
+    400152: L_Elbow_Cont001
+    400154: L_Elbow_Cont002
+    400156: L_Hand
+    400158: L_Thumb_B1
+    400160: L_Thumb_B2
+    400162: L_Thumb_B3
+    400164: L_Thumb_EndBone
+    400166: L_Wrist
+    400168: L_Wrist_Cont
+    400170: L_wrist_endbone
+    400172: L_Wrist_IKChain
+    400174: Master
+    400176: R_1f_b1
+    400178: R_1f_b2
+    400180: R_1f_b3
+    400182: R_1f_Endbone
+    400184: R_2f_b1
+    400186: R_2f_b2
+    400188: R_2f_b3
+    400190: R_2f_EndBone
+    400192: R_3F_b1
+    400194: R_3F_b2
+    400196: R_3F_b3
+    400198: R_3F_EndBone
+    400200: R_4F_b1
+    400202: R_4F_b2
+    400204: R_4F_b3
+    400206: R_4F_Endbone
+    400208: R_Arm
+    400210: R_Clavicle
+    400212: R_Clavicle_Cont
+    400214: R_Elbow_Cont
+    400216: R_Hand
+    400218: R_Thumb_B1
+    400220: R_Thumb_B2
+    400222: R_Thumb_B3
+    400224: R_Thumb_EndBone
+    400226: R_Wrist
+    400228: R_Wrist_Cont
+    400230: R_Wrist_Endbone
+    400232: R_Wrist_IKChain
+    400234: Rectangle001
+    400236: Rectangle002
+    400238: //RootNode
+    400240: Stomach_Cont
+    400242: Stomach_Cont001
+    400244: Stomach_Cont002
+    400246: Stomach_Cont003
+    400248: Stomach_Cont004
+    400250: Stomach_Cont005
+    2100000: 02 - Default
+    4300000: Body
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Body
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

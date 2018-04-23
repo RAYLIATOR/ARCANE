@@ -1,0 +1,280 @@
+fileFormatVersion: 2
+guid: f2f2678cb9e45d949a9d9164ac1630c7
+timeCreated: 1524470145
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: L_1F_B1
+    100002: L_1F_B1_CONT
+    100004: L_1F_B2
+    100006: L_1F_B2_CONT
+    100008: L_1F_B3
+    100010: L_1F_B3_CONT
+    100012: L_1F_B3_END
+    100014: L_2F_B1
+    100016: L_2F_B1_CONT
+    100018: L_2F_B2
+    100020: L_2F_B2_CONT
+    100022: L_2F_B3
+    100024: L_2F_B3_CONT
+    100026: L_2F_B3_END
+    100028: L_3F_B1
+    100030: L_3F_B1_CONT
+    100032: L_3F_B2
+    100034: L_3F_B2_CONT
+    100036: L_3F_B3
+    100038: L_3F_B3_CONT
+    100040: L_3F_B3_END
+    100042: L_4F_B1
+    100044: L_4F_B1_CONT
+    100046: L_4F_B2
+    100048: L_4F_B2_CONT
+    100050: L_4F_B3
+    100052: L_4F_B3_CONT
+    100054: L_4F_B3_END
+    100056: L_Arm
+    100058: L_Elbow_Cont
+    100060: L_Hand
+    100062: L_THUMB_B1
+    100064: L_THUMB_B1_CONT
+    100066: L_THUMB_B2
+    100068: L_THUMB_B2_CONT
+    100070: L_THUMB_B3
+    100072: L_THUMB_B3_CONT
+    100074: L_THUMB_B3_END
+    100076: L_Wrist
+    100078: L_Wrist_Controller
+    100080: L_Wrist_EndBone
+    100082: L_Wrist_IKChain
+    100084: PhysCamera001
+    100086: PhysCamera001.Target
+    100088: R_1F_B1
+    100090: R_1F_B1_CONT
+    100092: R_1F_B2
+    100094: R_1F_B2_CONT
+    100096: R_1F_B3
+    100098: R_1F_B3_CONT
+    100100: R_1F_B3_END
+    100102: R_2F_B1
+    100104: R_2F_B1_CONT
+    100106: R_2F_B2
+    100108: R_2F_B2_CONT
+    100110: R_2F_B3
+    100112: R_2F_B3_CONT
+    100114: R_2F_B3_END
+    100116: R_3F_B1
+    100118: R_3F_B1_CONT
+    100120: R_3F_B2
+    100122: R_3F_B2_CONT
+    100124: R_3F_B3
+    100126: R_3F_B3_CONT
+    100128: R_3F_B3_END
+    100130: R_4F_B1_CONT
+    100132: R_4F_B2
+    100134: R_4F_B2_CONT
+    100136: R_4F_B3
+    100138: R_4F_B3_CONT
+    100140: R_4F_B3_END
+    100142: R_Arm
+    100144: R_Elbow_Cont
+    100146: R_Hand
+    100148: R_THUMB_B1
+    100150: R_THUMB_B1_CONT
+    100152: R_THUMB_B2
+    100154: R_THUMB_B2_CONT
+    100156: R_THUMB_B3
+    100158: R_THUMB_B3_CONT
+    100160: R_THUMB_B3_END
+    100162: R_Wrist
+    100164: R_Wrist_Controller
+    100166: R_Wrist_EndBone
+    100168: R_Wrist_IKChain
+    100170: Right arm
+    100172: RL_4F_B1
+    100174: //RootNode
+    100176: sleeves
+    100178: Vessel
+    400000: L_1F_B1
+    400002: L_1F_B1_CONT
+    400004: L_1F_B2
+    400006: L_1F_B2_CONT
+    400008: L_1F_B3
+    400010: L_1F_B3_CONT
+    400012: L_1F_B3_END
+    400014: L_2F_B1
+    400016: L_2F_B1_CONT
+    400018: L_2F_B2
+    400020: L_2F_B2_CONT
+    400022: L_2F_B3
+    400024: L_2F_B3_CONT
+    400026: L_2F_B3_END
+    400028: L_3F_B1
+    400030: L_3F_B1_CONT
+    400032: L_3F_B2
+    400034: L_3F_B2_CONT
+    400036: L_3F_B3
+    400038: L_3F_B3_CONT
+    400040: L_3F_B3_END
+    400042: L_4F_B1
+    400044: L_4F_B1_CONT
+    400046: L_4F_B2
+    400048: L_4F_B2_CONT
+    400050: L_4F_B3
+    400052: L_4F_B3_CONT
+    400054: L_4F_B3_END
+    400056: L_Arm
+    400058: L_Elbow_Cont
+    400060: L_Hand
+    400062: L_THUMB_B1
+    400064: L_THUMB_B1_CONT
+    400066: L_THUMB_B2
+    400068: L_THUMB_B2_CONT
+    400070: L_THUMB_B3
+    400072: L_THUMB_B3_CONT
+    400074: L_THUMB_B3_END
+    400076: L_Wrist
+    400078: L_Wrist_Controller
+    400080: L_Wrist_EndBone
+    400082: L_Wrist_IKChain
+    400084: PhysCamera001
+    400086: PhysCamera001.Target
+    400088: R_1F_B1
+    400090: R_1F_B1_CONT
+    400092: R_1F_B2
+    400094: R_1F_B2_CONT
+    400096: R_1F_B3
+    400098: R_1F_B3_CONT
+    400100: R_1F_B3_END
+    400102: R_2F_B1
+    400104: R_2F_B1_CONT
+    400106: R_2F_B2
+    400108: R_2F_B2_CONT
+    400110: R_2F_B3
+    400112: R_2F_B3_CONT
+    400114: R_2F_B3_END
+    400116: R_3F_B1
+    400118: R_3F_B1_CONT
+    400120: R_3F_B2
+    400122: R_3F_B2_CONT
+    400124: R_3F_B3
+    400126: R_3F_B3_CONT
+    400128: R_3F_B3_END
+    400130: R_4F_B1_CONT
+    400132: R_4F_B2
+    400134: R_4F_B2_CONT
+    400136: R_4F_B3
+    400138: R_4F_B3_CONT
+    400140: R_4F_B3_END
+    400142: R_Arm
+    400144: R_Elbow_Cont
+    400146: R_Hand
+    400148: R_THUMB_B1
+    400150: R_THUMB_B1_CONT
+    400152: R_THUMB_B2
+    400154: R_THUMB_B2_CONT
+    400156: R_THUMB_B3
+    400158: R_THUMB_B3_CONT
+    400160: R_THUMB_B3_END
+    400162: R_Wrist
+    400164: R_Wrist_Controller
+    400166: R_Wrist_EndBone
+    400168: R_Wrist_IKChain
+    400170: Right arm
+    400172: RL_4F_B1
+    400174: //RootNode
+    400176: sleeves
+    400178: Vessel
+    2100000: No Name
+    2100002: 02 - Default
+    2100004: 01 - Default
+    2300000: sleeves
+    2300002: Vessel
+    3300000: sleeves
+    3300002: Vessel
+    4300000: Vessel
+    4300002: Right arm
+    4300004: sleeves
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Right arm
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

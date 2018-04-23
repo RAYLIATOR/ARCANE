@@ -7,9 +7,9 @@ using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public Image PressEntertoBegin;
-    public Image snowLoadingIcon;
+    //public Image snowLoadingIcon;
     bool fade = true;
-    bool rotate = false;
+    //bool rotate = false;
 	void Start ()
     {
 		
@@ -43,14 +43,14 @@ public class MainMenu : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Return))
         {
             PressEntertoBegin.gameObject.SetActive(false);
-            snowLoadingIcon.gameObject.SetActive(true);
-            rotate = true;
+            //snowLoadingIcon.gameObject.SetActive(true);
+            //rotate = true;
             SceneManager.LoadScene(1);
         }
-        if (rotate)
-        {
-            snowLoadingIcon.transform.Rotate(0, 0, -2, 0);
-        }
+        //if (rotate)
+        //{
+            //snowLoadingIcon.transform.Rotate(0, 0, -2, 0);
+        //}
     }
 
 }
