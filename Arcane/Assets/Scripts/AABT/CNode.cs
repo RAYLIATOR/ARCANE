@@ -16,19 +16,7 @@ public class CNode
     public virtual void Execute()
     {
 
-    }/*
-    public void Add_Behaviour(CNode newBehaviour)
-    {        
-        children.Add(newBehaviour);
     }
-    public void Add_Selector(CNode newSelector)
-    {
-        children.Add(newSelector);
-    }
-    public void Add_Sequencer(CNode newSequencer)
-    {
-        children.Add(newSequencer);
-    }*/
     public void assignOwner(EnemyBT owner)
     {
         ownerBT = owner;
