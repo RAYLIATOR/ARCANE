@@ -32,6 +32,8 @@ public class EnemyBT : MonoBehaviour
         root.children[0].children.Add(new Chase());
         root.children[0].children.Add(new Attack());
         root.assignOwner(this);
+        root.ownerBT = this;
+        //root.Initialization();
     }
 	void Update ()
     {

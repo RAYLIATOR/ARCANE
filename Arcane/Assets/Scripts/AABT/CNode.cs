@@ -29,6 +29,7 @@ public class CNode
     {
         children.Add(newSequencer);
     }*/
+
     public void assignOwner(EnemyBT owner)
     {
         ownerBT = owner;
