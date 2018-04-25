@@ -5,7 +5,9 @@ using UnityEngine.UI;
  
 [RequireComponent(typeof(Rigidbody))]
 public class Player : MonoBehaviour
-{
+{	
+	public GameObject gameOverPanel;
+	public GameObject youWinPanel;
 	Animator animator;
 	public static GameObject currentEnemy;
     public Image bloodOnScreenEffect;
@@ -33,7 +35,8 @@ public class Player : MonoBehaviour
     float yRotation = 0.0f;
 
     //Shooting
-    float fireRate = 2f;
+	public static bool shoot;
+    float fireRate = 1f;
     float nextTimeToFire = 0f;
     public GameObject projectile;
     public Transform firePoint;
@@ -43,6 +46,7 @@ public class Player : MonoBehaviour
 
     void Start()
     {
+		shoot = true;
 		animator = GetComponentInChildren<Animator> ();
 		playerDamage = 20f;
 		playerHealth = 100f;
@@ -59,10 +63,11 @@ public class Player : MonoBehaviour
         Movement();
         Shoot();
 		Regen();
+		Die ();
     }
     void Shoot()
     {
-		if (Input.GetKeyDown (KeyCode.Mouse0) && Time.time >= nextTimeToFire) 
+		if (Input.GetKeyDown (KeyCode.Mouse0) && Time.time >= nextTimeToFire && shoot) 
 		{
 			animator.SetTrigger ("Attack");
 			nextTimeToFire = Time.time + 1f / fireRate;
@@ -75,11 +80,11 @@ public class Player : MonoBehaviour
     }
 	void Fire()
 	{		
-		Instantiate (projectile, firePoint.position, transform.localRotation);
+		Instantiate (projectile, firePoint.transform.position, Camera.main.transform.rotation);
 	}
 	void Regen()
 	{
-		playerHealth += 0.01f;
+		playerHealth += 0.05f;
 	}
     void Movement()
     {
@@ -135,5 +140,14 @@ public class Player : MonoBehaviour
 
         Camera.main.transform.localRotation = Quaternion.Euler(-yRotation, 0, 0);
         transform.rotation = Quaternion.Euler(0, xRotation, 0);
-    }    
+    } 
+	void Die()
+	{
+		if (playerHealth <= 0) 
+		{
+			gameOverPanel.SetActive (true);
+			Cursor.lockState = CursorLockMode.None;
+			Cursor.visible = true;
+		}
+	}
 }

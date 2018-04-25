@@ -30,11 +30,7 @@ public class Attack : CNode
 		if (Time.time >= nextTimeToFire) 
 		{
 			ownerBT.animator.SetTrigger("Attack");
-			nextTimeToFire = Time.time + 1f / attackRate;
-		}
-		if (Time.time >= nextTimeToFire - 0.5f) 
-		{
-			Player.playerHealth -= damage;
+			ownerBT.Invoke ("DamagePlayer", 1);
 			nextTimeToFire = Time.time + 1f / attackRate;
 		}
 	}

@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\FinalStaff.cs" />
      <Compile Include="Assets\Scripts\AABT\Attack.cs" />
      <Compile Include="Assets\Scripts\AABT\Chase.cs" />
      <Compile Include="Assets\Scripts\AABT\CNode.cs" />
@@ -59,8 +60,10 @@
      <Compile Include="Assets\Scripts\AABT\Selector.cs" />
      <Compile Include="Assets\Scripts\AABT\Sequencer.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
+     <Compile Include="Assets\Tutorial.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

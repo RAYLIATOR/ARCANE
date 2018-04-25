@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyBT : MonoBehaviour
 {
+	float distanceToPlayer;
     public Animator animator;
 	public Rigidbody enemyRb;
     public GameObject player;
@@ -37,11 +38,19 @@ public class EnemyBT : MonoBehaviour
     }
 	void Update ()
     {
+		distanceToPlayer = Vector3.Distance (transform.position, player.transform.position);
 		print (enemyHealth);
 		root.Execute();
 		if (enemyHealth <= 0) 
 		{
 			Die ();
+		}
+	}
+	void DamagePlayer()
+	{
+		if (distanceToPlayer <= attackRange)
+		{
+			Player.playerHealth -= 20;
 		}
 	}
 	void TakeDamage(float damage)

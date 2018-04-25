@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33665525697793426}
   - component: {fileID: 23251557972642020}
   - component: {fileID: 95092726146861902}
+  - component: {fileID: 136590060847768936}
   m_Layer: 0
   m_Name: Pine Tree03
   m_TagString: Untagged
@@ -100,3 +101,16 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!136 &136590060847768936
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1299693153181872}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 2.4
+  m_Height: 23.646706
+  m_Direction: 1
+  m_Center: {x: 0.0000011920929, y: 11.407751, z: 0.00000071525574}

@@ -1,16 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AABT\Sequencer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AABT\Attack.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Projectile.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player.cs" Line="39" Column="23" />
+      <File FileName="Assets\Scripts\Projectile.cs" Line="9" Column="9" />
       <File FileName="Assets\Scripts\AABT\EnemyBT.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AABT\CNode.cs" Line="29" Column="1" />
+      <File FileName="Assets\Scripts\AABT\CNode.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AABT\Selector.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AABT\Sequencer.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AABT\Chase.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AABT\Attack.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AABT\Attack.cs" Line="12" Column="43" />
       <File FileName="Assets\Scripts\AABT\Idle.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PauseMenu.cs" Line="26" Column="27" />
+      <File FileName="Assets\FinalStaff.cs" Line="14" Column="26" />
+      <File FileName="Assets\Tutorial.cs" Line="38" Column="261" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
