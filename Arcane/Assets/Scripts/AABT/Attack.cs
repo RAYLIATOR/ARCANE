@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Attack : CNode
 {
+	
 	float attackRate = 0.5f;
 	float nextTimeToFire = 0f;
 	public override void Execute()
