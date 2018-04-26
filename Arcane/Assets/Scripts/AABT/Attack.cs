@@ -8,7 +8,6 @@ public class Attack : CNode
 	float nextTimeToFire = 0f;
 	public override void Execute()
 	{
-        ownerBT.transform.LookAt(new Vector3(ownerBT.player.transform.position.x, ownerBT.transform.position.y, ownerBT.player.transform.position.z));
         //Debug.Log (Player.playerHealth);
 		//Debug.Log(ownerBT.enemyHealth);
 		if (ownerBT.enemyHealth <= 0) 
@@ -16,12 +15,14 @@ public class Attack : CNode
 			result = state.failure;
 		}
 		else if (Player.playerHealth > 0) 
-		{            
+		{       
+			ownerBT.transform.LookAt(new Vector3(ownerBT.player.transform.position.x, ownerBT.transform.position.y, ownerBT.player.transform.position.z));     
 			AttackPlayer (ownerBT.enemyDamage);
 			result = state.running;
 		}
 		else if (Player.playerHealth <= 0) 
 		{
+			ownerBT.transform.LookAt(new Vector3(ownerBT.player.transform.position.x, ownerBT.transform.position.y, ownerBT.player.transform.position.z));
 			result = state.success;
 		}
 	}

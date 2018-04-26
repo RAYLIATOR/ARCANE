@@ -13,6 +13,6 @@ public class Projectile : MonoBehaviour
 	}
 	void Update ()
     {
-        transform.position += transform.forward*1f;
+        transform.position += transform.forward*1.5f;
 	}
 }

@@ -6,6 +6,9 @@ using UnityEngine.UI;
 [RequireComponent(typeof(Rigidbody))]
 public class Player : MonoBehaviour
 {	
+	public AudioSource playerAs;
+	public AudioClip shot;
+	public AudioClip ded;
 	public GameObject gameOverPanel;
 	public GameObject youWinPanel;
 	Animator animator;
@@ -45,7 +48,8 @@ public class Player : MonoBehaviour
     public float maxSpeed;
 
     void Start()
-    {
+	{
+		playerAs.clip = shot;
 		shoot = true;
 		animator = GetComponentInChildren<Animator> ();
 		playerDamage = 20f;
@@ -69,13 +73,10 @@ public class Player : MonoBehaviour
     {
 		if (Input.GetKeyDown (KeyCode.Mouse0) && Time.time >= nextTimeToFire && shoot) 
 		{
+			playerAs.Play ();
 			animator.SetTrigger ("Attack");
 			nextTimeToFire = Time.time + 1f / fireRate;
 			Invoke ("Fire", 1f);
-		}
-		else 
-		{
-			animator.SetTrigger ("Idle");
 		}
     }
 	void Fire()
@@ -110,6 +111,7 @@ public class Player : MonoBehaviour
 
 		if (!Input.GetKey (KeyCode.W) && !Input.GetKey (KeyCode.S) && !Input.GetKey (KeyCode.D) && !Input.GetKey (KeyCode.A)) {
 			rRigidbody.velocity = new Vector3 (0.0f, rRigidbody.velocity.y, 0.0f);
+			animator.SetTrigger ("Idle");
 		} else
 		{
 			animator.SetTrigger ("Walk");
@@ -145,6 +147,8 @@ public class Player : MonoBehaviour
 	{
 		if (playerHealth <= 0) 
 		{
+			playerAs.clip = ded;
+			playerAs.Play ();
 			gameOverPanel.SetActive (true);
 			Cursor.lockState = CursorLockMode.None;
 			Cursor.visible = true;

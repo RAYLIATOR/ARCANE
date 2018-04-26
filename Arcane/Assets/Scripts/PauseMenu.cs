@@ -16,7 +16,7 @@ public class PauseMenu : MonoBehaviour
 	{
 		Pause ();
 	}
-	void Pause()
+	public void Pause()
 	{
 		if(Input.GetKeyDown(KeyCode.Escape))
 			{
@@ -27,6 +27,10 @@ public class PauseMenu : MonoBehaviour
 				Time.timeScale = 0f;
 				Player.shoot = false;
 			}
+	}
+	public void Quit()
+	{
+		Application.Quit ();
 	}
 	public void Resume()
 	{

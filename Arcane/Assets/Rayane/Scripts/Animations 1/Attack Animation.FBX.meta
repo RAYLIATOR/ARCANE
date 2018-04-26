@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: c0823b3fcb1e17b4a9a5cb8a2514c6d5
+timeCreated: 1524370317
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: ' wolf'
+    100002: //RootNode
+    100004: Chest
+    100006: Chest_Cont
+    100008: COG
+    100010: COG_Cont
+    100012: Head
+    100014: Head_BoneEnd
+    100016: Head_Cont
+    100018: Jaw
+    100020: Jaw_Cont
+    100022: Jaw_EndBone
+    100024: L_Arm
+    100026: L_Back_Ankle
+    100028: L_Back_Ankle001
+    100030: L_Back_Foot
+    100032: L_Back_Foot001
+    100034: L_Back_Foot_EndBone
+    100036: L_Back_Foot_EndBone001
+    100038: L_Clavicle
+    100040: L_Ear
+    100042: L_Ear_Cont
+    100044: L_Ear_EndBone
+    100046: L_Front_Ankle
+    100048: L_Front_Foot
+    100050: L_Front_Foot_EndBone
+    100052: L_Hand
+    100054: L_Leg
+    100056: L_Leg001
+    100058: L_Thigh
+    100060: L_Thigh001
+    100062: LB_Foot_Cont
+    100064: LB_Knee_Cont
+    100066: LF_Foot_Cont
+    100068: LF_Knee_Cont
+    100070: LR_Foot_Cont
+    100072: Master
+    100074: Neck
+    100076: Neck_Cont
+    100078: R_Arm
+    100080: R_Clavicle
+    100082: R_Ear
+    100084: R_Ear_Cont
+    100086: R_Ear_EndBone
+    100088: R_Front_Ankle
+    100090: R_Front_Foot
+    100092: R_Front_Foot_EndBone
+    100094: R_Hand
+    100096: RB_Foot_Cont
+    100098: RB_Knee_Cont
+    100100: RF_Knee_Cont
+    100102: Stomach
+    100104: Stomach_Cont
+    100106: Tail_B1
+    100108: Tail_B1_Cont
+    100110: Tail_B2
+    100112: Tail_B2_Cont
+    100114: Tail_B3
+    100116: Tail_B3_Cont
+    100118: Tail_B3_EndBone
+    400000: ' wolf'
+    400002: //RootNode
+    400004: Chest
+    400006: Chest_Cont
+    400008: COG
+    400010: COG_Cont
+    400012: Head
+    400014: Head_BoneEnd
+    400016: Head_Cont
+    400018: Jaw
+    400020: Jaw_Cont
+    400022: Jaw_EndBone
+    400024: L_Arm
+    400026: L_Back_Ankle
+    400028: L_Back_Ankle001
+    400030: L_Back_Foot
+    400032: L_Back_Foot001
+    400034: L_Back_Foot_EndBone
+    400036: L_Back_Foot_EndBone001
+    400038: L_Clavicle
+    400040: L_Ear
+    400042: L_Ear_Cont
+    400044: L_Ear_EndBone
+    400046: L_Front_Ankle
+    400048: L_Front_Foot
+    400050: L_Front_Foot_EndBone
+    400052: L_Hand
+    400054: L_Leg
+    400056: L_Leg001
+    400058: L_Thigh
+    400060: L_Thigh001
+    400062: LB_Foot_Cont
+    400064: LB_Knee_Cont
+    400066: LF_Foot_Cont
+    400068: LF_Knee_Cont
+    400070: LR_Foot_Cont
+    400072: Master
+    400074: Neck
+    400076: Neck_Cont
+    400078: R_Arm
+    400080: R_Clavicle
+    400082: R_Ear
+    400084: R_Ear_Cont
+    400086: R_Ear_EndBone
+    400088: R_Front_Ankle
+    400090: R_Front_Foot
+    400092: R_Front_Foot_EndBone
+    400094: R_Hand
+    400096: RB_Foot_Cont
+    400098: RB_Knee_Cont
+    400100: RF_Knee_Cont
+    400102: Stomach
+    400104: Stomach_Cont
+    400106: Tail_B1
+    400108: Tail_B1_Cont
+    400110: Tail_B2
+    400112: Tail_B2_Cont
+    400114: Tail_B3
+    400116: Tail_B3_Cont
+    400118: Tail_B3_EndBone
+    4300000: ' wolf'
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: ' wolf'
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 34
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

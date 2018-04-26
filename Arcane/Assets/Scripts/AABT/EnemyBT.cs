@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class EnemyBT : MonoBehaviour
 {
+	AudioSource enemyAs;
 	float distanceToPlayer;
     public Animator animator;
 	public Rigidbody enemyRb;
@@ -14,6 +15,7 @@ public class EnemyBT : MonoBehaviour
     public float attackRange;
     public float enemyDamage ;
     public float enemyHealth;
+	int fleeornot;
     CNode root;
 	void OnCollisionEnter(Collision col)
 	{
@@ -24,13 +26,16 @@ public class EnemyBT : MonoBehaviour
 	}
 	void Start ()
     {
+		fleeornot = Random.Range (1, 3);
+		enemyHealth = 30f;
+		enemyAs = GetComponent<AudioSource> ();
         //animator = GetComponent<Animator>();
 		enemyDamage = 10f;
 		enemyRb = GetComponent<Rigidbody> ();
         root = new Selector();
         root.children.Add(new Sequencer());
         root.children.Add(new Idle());
-        root.children[0].children.Add(new Chase());
+		root.children[0].children.Add(new Chase());
         root.children[0].children.Add(new Attack());
         root.assignOwner(this);
         root.ownerBT = this;
@@ -59,6 +64,7 @@ public class EnemyBT : MonoBehaviour
 	}
 	public void Die()
 	{
+		enemyAs.Play ();
 		enemyRb.velocity = Vector3.zero;
 		animator.SetTrigger("Die");
 		Destroy (gameObject, 3f);

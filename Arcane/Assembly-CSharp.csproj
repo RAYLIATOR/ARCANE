@@ -52,6 +52,17 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\FinalStaff.cs" />
+     <Compile Include="Assets\Rayane\Scripts\scripts\Animation_Manager.cs" />
+     <Compile Include="Assets\Rayane\Scripts\scripts\Behavior_tree.cs" />
+     <Compile Include="Assets\Rayane\Scripts\scripts\Node.cs" />
+     <Compile Include="Assets\Rayane\Scripts\scripts\ondraw.cs" />
+     <Compile Include="Assets\Rayane\Scripts\scripts\Patrol.cs" />
+     <Compile Include="Assets\Rayane\Scripts\scripts\Patrol_tornado.cs" />
+     <Compile Include="Assets\Rayane\Scripts\scripts\R_Attack.cs" />
+     <Compile Include="Assets\Rayane\Scripts\scripts\R_Selector.cs" />
+     <Compile Include="Assets\Rayane\Scripts\scripts\R_Sequencer.cs" />
+     <Compile Include="Assets\Rayane\Scripts\scripts\Seek.cs" />
+     <Compile Include="Assets\Rayane\Scripts\scripts\Seek_steer.cs" />
      <Compile Include="Assets\Scripts\AABT\Attack.cs" />
      <Compile Include="Assets\Scripts\AABT\Chase.cs" />
      <Compile Include="Assets\Scripts\AABT\CNode.cs" />
@@ -63,6 +74,7 @@
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Projectile.cs" />
+     <Compile Include="Assets\SPIKES\UPANDDOWN.cs" />
      <Compile Include="Assets\Tutorial.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
